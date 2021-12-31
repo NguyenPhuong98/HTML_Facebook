@@ -1,0 +1,35 @@
+@media (min-height: 790px) {
+	.story-container {
+		/* min-width: 500px;
+		width: 680px; */
+	}
+}
+
+@media (min-height: 700px) and (max-height: 789px) {
+	.activity-wrapper {
+		width: 590px;
+	}
+}
+
+@media only screen and (max-width: 1259px) {
+	.header-search {
+		width: 40px;
+	}
+	.search-container .input-search {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1099px) {
+	.sidebar-container {
+		display: none;
+	}
+
+	.header-page__gaming {
+		display: none;
+	}
+
+	.header-page__more {
+		display: flex;
+	}
+}
